@@ -1,0 +1,487 @@
+[
+  {
+    "Title": "The Shawshank Redemption",
+    "Country": "United States",
+    "Rating": 8.7,
+    "ReleaseDate": "1994-09-23",
+    "DurationMinutes": 142,
+    "AgeRestriction": 16,
+    "OriginalLanguage": "English",
+    "Genre": ["Drama"],
+    "Director": {
+      "DirectorFirstName": "Frank",
+      "DirectorLastName": "Darabont"
+    },
+    "Actors": [
+      {
+        "ActorFirstName": "Tim",
+        "ActorLastName": "Robbins",
+        "ActorCountry": "United States",
+        "CharacterName": "Andy Dufresne"
+      },
+      {
+        "ActorFirstName": "Morgan",
+        "ActorLastName": "Freeman",
+        "ActorCountry": "United States",
+        "CharacterName": "Ellis Boyd Redding"
+      }
+    ]
+  },
+  {
+    "Title": "The Godfather",
+    "Country": "United States",
+    "Rating": 8.7,
+    "ReleaseDate": "1972-03-24",
+    "DurationMinutes": 175,
+    "AgeRestriction": 18,
+    "OriginalLanguage": "English",
+    "Genre": ["Crime", "Drama"],
+    "Director": {
+      "DirectorFirstName": "Francis Ford",
+      "DirectorLastName": "Coppola"
+    },
+    "Actors": [
+      {
+        "ActorFirstName": "Marlon",
+        "ActorLastName": "Brando",
+        "ActorCountry": "United States",
+        "CharacterName": "Vito Corleone"
+      },
+      {
+        "ActorFirstName": "Al",
+        "ActorLastName": "Pacino",
+        "ActorCountry": "United States",
+        "CharacterName": "Michael Corleone"
+      }
+    ]
+  },
+  {
+    "Title": "The Dark Knight",
+    "Country": "United States",
+    "Rating": 8.5,
+    "ReleaseDate": "2008-07-18",
+    "DurationMinutes": 152,
+    "AgeRestriction": 16,
+    "OriginalLanguage": "English",
+    "Genre": ["Action", "Thriller"],
+    "Director": {
+      "DirectorFirstName": "Christopher",
+      "DirectorLastName": "Nolan"
+    },
+    "Actors": [
+      {
+        "ActorFirstName": "Christian",
+        "ActorLastName": "Bale",
+        "ActorCountry": "United Kingdom",
+        "CharacterName": "Bruce Wayne / Batman"
+      },
+      {
+        "ActorFirstName": "Heath",
+        "ActorLastName": "Ledger",
+        "ActorCountry": "Australia",
+        "CharacterName": "Joker"
+      }
+    ]
+  },
+  {
+    "Title": "Forrest Gump",
+    "Country": "United States",
+    "Rating": 8.5,
+    "ReleaseDate": "1994-07-06",
+    "DurationMinutes": 142,
+    "AgeRestriction": 12,
+    "OriginalLanguage": "English",
+    "Genre": ["Drama", "Romance"],
+    "Director": {
+      "DirectorFirstName": "Robert",
+      "DirectorLastName": "Zemeckis"
+    },
+    "Actors": [
+      {
+        "ActorFirstName": "Tom",
+        "ActorLastName": "Hanks",
+        "ActorCountry": "United States",
+        "CharacterName": "Forrest Gump"
+      },
+      {
+        "ActorFirstName": "Robin",
+        "ActorLastName": "Wright",
+        "ActorCountry": "United States",
+        "CharacterName": "Jenny Curran"
+      }
+    ]
+  },
+  {
+    "Title": "Interstellar",
+    "Country": "United States",
+    "Rating": 8.5,
+    "ReleaseDate": "2014-11-07",
+    "DurationMinutes": 169,
+    "AgeRestriction": 12,
+    "OriginalLanguage": "English",
+    "Genre": ["Adventure", "Drama", "Science Fiction"],
+    "Director": {
+      "DirectorFirstName": "Christopher",
+      "DirectorLastName": "Nolan"
+    },
+    "Actors": [
+      {
+        "ActorFirstName": "Matthew",
+        "ActorLastName": "McConaughey",
+        "ActorCountry": "United States",
+        "CharacterName": "Cooper"
+      },
+      {
+        "ActorFirstName": "Anne",
+        "ActorLastName": "Hathaway",
+        "ActorCountry": "United States",
+        "CharacterName": "Brand"
+      }
+    ]
+  },
+  {
+    "Title": "Titanic",
+    "Country": "United States",
+    "Rating": 7.9,
+    "ReleaseDate": "1997-12-19",
+    "DurationMinutes": 195,
+    "AgeRestriction": 12,
+    "OriginalLanguage": "English",
+    "Genre": ["Drama", "Romance"],
+    "Director": { "DirectorFirstName": "James", "DirectorLastName": "Cameron" },
+    "Actors": [
+      {
+        "ActorFirstName": "Leonardo",
+        "ActorLastName": "DiCaprio",
+        "ActorCountry": "United States",
+        "CharacterName": "Jack Dawson"
+      },
+      {
+        "ActorFirstName": "Kate",
+        "ActorLastName": "Winslet",
+        "ActorCountry": "United Kingdom",
+        "CharacterName": "Rose DeWitt Bukater"
+      }
+    ]
+  },
+  {
+    "Title": "Jurassic Park",
+    "Country": "United States",
+    "Rating": 8.0,
+    "ReleaseDate": "1993-06-11",
+    "DurationMinutes": 127,
+    "AgeRestriction": 12,
+    "OriginalLanguage": "English",
+    "Genre": ["Adventure", "Science Fiction", "Thriller"],
+    "Director": {
+      "DirectorFirstName": "Steven",
+      "DirectorLastName": "Spielberg"
+    },
+    "Actors": [
+      {
+        "ActorFirstName": "Sam",
+        "ActorLastName": "Neill",
+        "ActorCountry": "New Zealand",
+        "CharacterName": "Dr. Alan Grant"
+      }
+    ]
+  },
+  {
+    "Title": "The Lord of the Rings: The Fellowship of the Ring",
+    "Country": "New Zealand",
+    "Rating": 8.4,
+    "ReleaseDate": "2001-12-19",
+    "DurationMinutes": 178,
+    "AgeRestriction": 12,
+    "OriginalLanguage": "English",
+    "Genre": ["Adventure", "Fantasy"],
+    "Director": { "DirectorFirstName": "Peter", "DirectorLastName": "Jackson" },
+    "Actors": [
+      {
+        "ActorFirstName": "Elijah",
+        "ActorLastName": "Wood",
+        "ActorCountry": "United States",
+        "CharacterName": "Frodo Baggins"
+      },
+      {
+        "ActorFirstName": "Ian",
+        "ActorLastName": "McKellen",
+        "ActorCountry": "United Kingdom",
+        "CharacterName": "Gandalf"
+      }
+    ]
+  },
+  {
+    "Title": "Star Wars: A New Hope",
+    "Country": "United States",
+    "Rating": 8.2,
+    "ReleaseDate": "1977-05-25",
+    "DurationMinutes": 121,
+    "AgeRestriction": 12,
+    "OriginalLanguage": "English",
+    "Genre": ["Adventure", "Science Fiction"],
+    "Director": { "DirectorFirstName": "George", "DirectorLastName": "Lucas" },
+    "Actors": [
+      {
+        "ActorFirstName": "Mark",
+        "ActorLastName": "Hamill",
+        "ActorCountry": "United States",
+        "CharacterName": "Luke Skywalker"
+      },
+      {
+        "ActorFirstName": "Harrison",
+        "ActorLastName": "Ford",
+        "ActorCountry": "United States",
+        "CharacterName": "Han Solo"
+      }
+    ]
+  },
+  {
+    "Title": "Parasite",
+    "Country": "South Korea",
+    "Rating": 8.5,
+    "ReleaseDate": "2019-05-30",
+    "DurationMinutes": 132,
+    "AgeRestriction": 15,
+    "OriginalLanguage": "Korean",
+    "Genre": ["Comedy", "Drama", "Thriller"],
+    "Director": { "DirectorFirstName": "Bong", "DirectorLastName": "Joon-ho" },
+    "Actors": [
+      {
+        "ActorFirstName": "Song",
+        "ActorLastName": "Kang-ho",
+        "ActorCountry": "South Korea",
+        "CharacterName": "Kim Ki-taek"
+      },
+      {
+        "ActorFirstName": "Choi",
+        "ActorLastName": "Woo-shik",
+        "ActorCountry": "South Korea",
+        "CharacterName": "Kim Ki-woo"
+      }
+    ]
+  },
+  {
+    "Title": "Casino Royale",
+    "Country": "United Kingdom",
+    "Rating": 7.6,
+    "ReleaseDate": "2006-11-17",
+    "DurationMinutes": 144,
+    "AgeRestriction": 13,
+    "OriginalLanguage": "English",
+    "Genre": ["Action", "Adventure", "Thriller"],
+    "Director": {
+      "DirectorFirstName": "Martin",
+      "DirectorLastName": "Campbell"
+    },
+    "Actors": [
+      {
+        "ActorFirstName": "Daniel",
+        "ActorLastName": "Craig",
+        "ActorCountry": "United Kingdom",
+        "CharacterName": "James Bond"
+      }
+    ]
+  },
+  {
+    "Title": "Kako je počeo rat na mom otoku",
+    "Country": "Croatia",
+    "Rating": 6.2,
+    "ReleaseDate": "1996-08-07",
+    "DurationMinutes": 97,
+    "AgeRestriction": 12,
+    "OriginalLanguage": "Croatian",
+    "Genre": ["Comedy", "Drama"],
+    "Director": { "DirectorFirstName": "Vinko", "DirectorLastName": "Brešan" },
+    "Actors": [
+      {
+        "ActorFirstName": "Vlatko",
+        "ActorLastName": "Dulić",
+        "ActorCountry": "Croatia",
+        "CharacterName": "Blaž Gajski"
+      },
+      {
+        "ActorFirstName": "Ljubomir",
+        "ActorLastName": "Kerekeš",
+        "ActorCountry": "Croatia",
+        "CharacterName": "Major Aleksa Milosavljević"
+      },
+      {
+        "ActorFirstName": "Ivan",
+        "ActorLastName": "Brkić",
+        "ActorCountry": "Croatia",
+        "CharacterName": "Roko Papak"
+      },
+      {
+        "ActorFirstName": "Predrag",
+        "ActorLastName": "Vušović",
+        "ActorCountry": "Croatia",
+        "CharacterName": "Murko Munita"
+      },
+      {
+        "ActorFirstName": "Matija",
+        "ActorLastName": "Prskalo",
+        "ActorCountry": "Croatia",
+        "CharacterName": "Lucija Milosavljević"
+      }
+    ]
+  },
+  {
+    "Title": "The Intouchables",
+    "Country": "France",
+    "Rating": 8.3,
+    "ReleaseDate": "2011-11-02",
+    "DurationMinutes": 112,
+    "AgeRestriction": 12,
+    "OriginalLanguage": "French",
+    "Genre": ["Comedy", "Drama"],
+    "Director": {
+      "DirectorFirstName": "Olivier",
+      "DirectorLastName": "Nakache"
+    },
+    "Actors": [
+      {
+        "ActorFirstName": "François",
+        "ActorLastName": "Cluzet",
+        "ActorCountry": "France",
+        "CharacterName": "Philippe"
+      },
+      {
+        "ActorFirstName": "Omar",
+        "ActorLastName": "Sy",
+        "ActorCountry": "France",
+        "CharacterName": "Driss"
+      }
+    ]
+  },
+  {
+    "Title": "Slumdog Millionaire",
+    "Country": "United Kingdom",
+    "Rating": 7.7,
+    "ReleaseDate": "2008-11-12",
+    "DurationMinutes": 120,
+    "AgeRestriction": 15,
+    "OriginalLanguage": "English",
+    "Genre": ["Crime", "Drama"],
+    "Director": { "DirectorFirstName": "Danny", "DirectorLastName": "Boyle" },
+    "Actors": [
+      {
+        "ActorFirstName": "Dev",
+        "ActorLastName": "Patel",
+        "ActorCountry": "United Kingdom",
+        "CharacterName": "Jamal Malik"
+      },
+      {
+        "ActorFirstName": "Freida",
+        "ActorLastName": "Pinto",
+        "ActorCountry": "India",
+        "CharacterName": "Latika"
+      }
+    ]
+  },
+  {
+    "Title": "The Italian Job",
+    "Country": "United States",
+    "Rating": 6.8,
+    "ReleaseDate": "2003-05-30",
+    "DurationMinutes": 111,
+    "AgeRestriction": 13,
+    "OriginalLanguage": "English",
+    "Genre": ["Action", "Crime"],
+    "Director": { "DirectorFirstName": "F. Gary", "DirectorLastName": "Gray" },
+    "Actors": [
+      {
+        "ActorFirstName": "Mark",
+        "ActorLastName": "Wahlberg",
+        "ActorCountry": "United States",
+        "CharacterName": "Charlie Croker"
+      },
+      {
+        "ActorFirstName": "Charlize",
+        "ActorLastName": "Theron",
+        "ActorCountry": "South Africa",
+        "CharacterName": "Stella Bridger"
+      },
+      {
+        "ActorFirstName": "Edward",
+        "ActorLastName": "Norton",
+        "ActorCountry": "United States",
+        "CharacterName": "Steve Frazelli"
+      },
+      {
+        "ActorFirstName": "Jason",
+        "ActorLastName": "Statham",
+        "ActorCountry": "United Kingdom",
+        "CharacterName": "Handsome Rob"
+      }
+    ]
+  },
+  {
+    "Title": "The Fast and the Furious",
+    "Country": "United States",
+    "Rating": 7.0,
+    "ReleaseDate": "2001-06-22",
+    "DurationMinutes": 106,
+    "AgeRestriction": 13,
+    "OriginalLanguage": "English",
+    "Genre": ["Action", "Thriller"],
+    "Director": { "DirectorFirstName": "Rob", "DirectorLastName": "Cohen" },
+    "Actors": [
+      {
+        "ActorFirstName": "Vin",
+        "ActorLastName": "Diesel",
+        "ActorCountry": "United States",
+        "CharacterName": "Dominic Toretto"
+      },
+      {
+        "ActorFirstName": "Paul",
+        "ActorLastName": "Walker",
+        "ActorCountry": "United States",
+        "CharacterName": "Brian O'Conner"
+      },
+      {
+        "ActorFirstName": "Michelle",
+        "ActorLastName": "Rodriguez",
+        "ActorCountry": "United States",
+        "CharacterName": "Letty Ortiz"
+      },
+      {
+        "ActorFirstName": "Jordana",
+        "ActorLastName": "Brewster",
+        "ActorCountry": "United States",
+        "CharacterName": "Mia Toretto"
+      }
+    ]
+  },
+  {
+    "Title": "Taxi",
+    "Country": "France",
+    "Rating": 6.7,
+    "ReleaseDate": "1998-04-08",
+    "DurationMinutes": 86,
+    "AgeRestriction": 12,
+    "OriginalLanguage": "French",
+    "Genre": ["Action", "Comedy"],
+    "Director": { "DirectorFirstName": "Gérard", "DirectorLastName": "Pirès" },
+    "Actors": [
+      {
+        "ActorFirstName": "Samy",
+        "ActorLastName": "Naceri",
+        "ActorCountry": "France",
+        "CharacterName": "Daniel Morales"
+      },
+      {
+        "ActorFirstName": "Frédéric",
+        "ActorLastName": "Diefenthal",
+        "ActorCountry": "France",
+        "CharacterName": "Émilien Coutant-Kerbalec"
+      },
+      {
+        "ActorFirstName": "Marion",
+        "ActorLastName": "Cotillard",
+        "ActorCountry": "France",
+        "CharacterName": "Lilly Bertineau"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+Title,Country,Rating,ReleaseDate,DurationMinutes,AgeRestriction,OriginalLanguage,Genre,DirectorFirstName,DirectorLastName,ActorFirstName,ActorLastName,ActorCountry,CharacterName
+The Shawshank Redemption,United States,8.7,1994-09-23,142,16,English,Drama,Frank,Darabont,Tim,Robbins,United States,Andy Dufresne
+The Shawshank Redemption,United States,8.7,1994-09-23,142,16,English,Drama,Frank,Darabont,Morgan,Freeman,United States,Ellis Boyd Redding
+The Godfather,United States,8.7,1972-03-24,175,18,English,"Crime, Drama",Francis Ford,Coppola,Marlon,Brando,United States,Vito Corleone
+The Godfather,United States,8.7,1972-03-24,175,18,English,"Crime, Drama",Francis Ford,Coppola,Al,Pacino,United States,Michael Corleone
+The Dark Knight,United States,8.5,2008-07-18,152,16,English,"Action, Thriller",Christopher,Nolan,Christian,Bale,United Kingdom,Bruce Wayne / Batman
+The Dark Knight,United States,8.5,2008-07-18,152,16,English,"Action, Thriller",Christopher,Nolan,Heath,Ledger,Australia,Joker
+Forrest Gump,United States,8.5,1994-07-06,142,12,English,"Drama, Romance",Robert,Zemeckis,Tom,Hanks,United States,Forrest Gump
+Forrest Gump,United States,8.5,1994-07-06,142,12,English,"Drama, Romance",Robert,Zemeckis,Robin,Wright,United States,Jenny Curran
+Interstellar,United States,8.5,2014-11-07,169,12,English,"Adventure, Drama, Science Fiction",Christopher,Nolan,Matthew,McConaughey,United States,Cooper
+Interstellar,United States,8.5,2014-11-07,169,12,English,"Adventure, Drama, Science Fiction",Christopher,Nolan,Anne,Hathaway,United States,Brand
+Titanic,United States,7.9,1997-12-19,195,12,English,"Drama, Romance",James,Cameron,Leonardo,DiCaprio,United States,Jack Dawson
+Titanic,United States,7.9,1997-12-19,195,12,English,"Drama, Romance",James,Cameron,Kate,Winslet,United Kingdom,Rose DeWitt Bukater
+Jurassic Park,United States,8.0,1993-06-11,127,12,English,"Adventure, Science Fiction, Thriller",Steven,Spielberg,Sam,Neill,New Zealand,Dr. Alan Grant
+The Lord of the Rings: The Fellowship of the Ring,New Zealand,8.4,2001-12-19,178,12,English,"Adventure, Fantasy",Peter,Jackson,Elijah,Wood,United States,Frodo Baggins
+The Lord of the Rings: The Fellowship of the Ring,New Zealand,8.4,2001-12-19,178,12,English,"Adventure, Fantasy",Peter,Jackson,Ian,McKellen,United Kingdom,Gandalf
+Star Wars: A New Hope,United States,8.2,1977-05-25,121,12,English,"Adventure, Science Fiction",George,Lucas,Mark,Hamill,United States,Luke Skywalker
+Star Wars: A New Hope,United States,8.2,1977-05-25,121,12,English,"Adventure, Science Fiction",George,Lucas,Harrison,Ford,United States,Han Solo
+Parasite,South Korea,8.5,2019-05-30,132,15,Korean,"Comedy, Drama, Thriller",Bong,Joon-ho,Song,Kang-ho,South Korea,Kim Ki-taek
+Parasite,South Korea,8.5,2019-05-30,132,15,Korean,"Comedy, Drama, Thriller",Bong,Joon-ho,Choi,Woo-shik,South Korea,Kim Ki-woo
+Casino Royale,United Kingdom,7.6,2006-11-17,144,13,English,"Action, Adventure, Thriller",Martin,Campbell,Daniel,Craig,United Kingdom,James Bond
+Kako je počeo rat na mom otoku,Croatia,6.2,1996-08-07,97,12,Croatian,"Comedy, Drama",Vinko,Brešan,Vlatko,Dulić,Croatia,Blaž Gajski
+Kako je počeo rat na mom otoku,Croatia,6.2,1996-08-07,97,12,Croatian,"Comedy, Drama",Vinko,Brešan,Ljubomir,Kerekeš,Croatia,Major Aleksa Milosavljević
+Kako je počeo rat na mom otoku,Croatia,6.2,1996-08-07,97,12,Croatian,"Comedy, Drama",Vinko,Brešan,Ivan,Brkić,Croatia,Roko Papak
+Kako je počeo rat na mom otoku,Croatia,6.2,1996-08-07,97,12,Croatian,"Comedy, Drama",Vinko,Brešan,Predrag,Vušović,Croatia,Murko Munita
+Kako je počeo rat na mom otoku,Croatia,6.2,1996-08-07,97,12,Croatian,"Comedy, Drama",Vinko,Brešan,Matija,Prskalo,Croatia,Lucija Milosavljević
+The Intouchables,France,8.3,2011-11-02,112,12,French,"Comedy, Drama",Olivier,Nakache,François,Cluzet,France,Philippe
+The Intouchables,France,8.3,2011-11-02,112,12,French,"Comedy, Drama",Olivier,Nakache,Omar,Sy,France,Driss
+Slumdog Millionaire,United Kingdom,7.7,2008-11-12,120,15,English,"Crime, Drama",Danny,Boyle,Dev,Patel,United Kingdom,Jamal Malik
+Slumdog Millionaire,United Kingdom,7.7,2008-11-12,120,15,English,"Crime, Drama",Danny,Boyle,Freida,Pinto,India,Latika
+The Italian Job,United States,6.8,2003-05-30,111,13,English,"Action, Crime",F. Gary,Gray,Mark,Wahlberg,United States,Charlie Croker
+The Italian Job,United States,6.8,2003-05-30,111,13,English,"Action, Crime",F. Gary,Gray,Charlize,Theron,South Africa,Stella Bridger
+The Italian Job,United States,6.8,2003-05-30,111,13,English,"Action, Crime",F. Gary,Gray,Edward,Norton,United States,Steve Frazelli
+The Italian Job,United States,6.8,2003-05-30,111,13,English,"Action, Crime",F. Gary,Gray,Jason,Statham,United Kingdom,Handsome Rob
+The Fast and the Furious,United States,7.0,2001-06-22,106,13,English,"Action, Thriller",Rob,Cohen,Vin,Diesel,United States,Dominic Toretto
+The Fast and the Furious,United States,7.0,2001-06-22,106,13,English,"Action, Thriller",Rob,Cohen,Paul,Walker,United States,Brian O'Conner
+The Fast and the Furious,United States,7.0,2001-06-22,106,13,English,"Action, Thriller",Rob,Cohen,Michelle,Rodriguez,United States,Letty Ortiz
+The Fast and the Furious,United States,7.0,2001-06-22,106,13,English,"Action, Thriller",Rob,Cohen,Jordana,Brewster,United States,Mia Toretto
+Taxi,France,6.7,1998-04-08,86,12,French,"Action, Comedy",Gérard,Pirès,Samy,Naceri,France,Daniel Morales
+Taxi,France,6.7,1998-04-08,86,12,French,"Action, Comedy",Gérard,Pirès,Frédéric,Diefenthal,France,Émilien Coutant-Kerbalec
+Taxi,France,6.7,1998-04-08,86,12,French,"Action, Comedy",Gérard,Pirès,Marion,Cotillard,France,Lilly Bertineau

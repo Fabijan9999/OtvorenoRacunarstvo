@@ -6,7 +6,7 @@ Skup podataka sadrži informacije o 17 poznatih filmova s navedenim najvažnijim
 - **Naziv skupa:** Filmovi
 - **Autor:** Fabijan Radat 
 - **Verzija:** 1.0
-- **Licencija:** Creative Commons Attribution 1.0 International (CC BY 1.0)
+- **Licencija:** Creative Commons Zero v1.0 Universal (CC0 1.0 Universal)
 - **Jezik podataka:** engleski
 - **Formati:** CSV, JSON
 - **Kodiranje:** UTF-8

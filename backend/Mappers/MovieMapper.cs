@@ -21,8 +21,7 @@ namespace backend.Mappers
                     .Select(g => g.Genrename)
                     .ToList(),
 
-                DirectorFirstName = movie.Director.Firstname,
-                DirectorLastName = movie.Director.Lastname,
+                director = movie.Director.ToDirectorDto(),
 
                 Actors = movie.MovieActors
                     .Select(ma => ma.ToActorDto())

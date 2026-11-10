@@ -1,0 +1,157 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #222;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.metadata {
+    background-color: #f1f5f9;
+    padding: 18px 22px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.metadata p {
+    margin: 8px 0;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.links a {
+    display: inline-block;
+    padding: 10px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.links a:hover {
+    background-color: #1d4ed8;
+}
+
+.links a.csv-button {
+    background-color: #15803d;
+}
+
+.links a.csv-button:hover {
+    background-color: #166534;
+}
+
+.links a.json-button {
+    background-color: #15803d;
+}
+
+.links a.json-button:hover {
+    background-color: #166534;
+}
+
+.links .schema-button {
+    background-color: #15803d;
+}
+
+.links .schema-button:hover {
+    background-color: #166534;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 25px 0;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+thead {
+    background-color: #e9eef5;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: 600;
+    color: #333;
+}
+
+tbody tr:hover {
+    background-color: #f1f5f9;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    .links a {
+        text-align: center;
+    }
+}

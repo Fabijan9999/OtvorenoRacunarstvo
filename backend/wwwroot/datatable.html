@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablica filmova</title>
+    <meta name="title" content="Filmovi" />
+    <meta
+      name="description"
+      content="Otvoreni skup podataka o filmovima s informacijama o redateljima, glumcima i žanrovima."
+    />
+    <meta name="author" content="Fabijan Radat" />
+    <link rel="stylesheet" href="css/datatable.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tablica filmova</h1>
+
+      <p>Pregled, pretraživanje i preuzimanje podataka o filmovima.</p>
+
+      <h2>Pretraživanje</h2>
+
+      <div class="filters">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Unesite pojam za pretraživanje..."
+        />
+
+        <select id="attributeSelect">
+          <option value="">Svi atributi</option>
+          <option value="Title">Naslov filma</option>
+          <option value="Country">Zemlja produkcije</option>
+          <option value="Rating">Ocjena</option>
+          <option value="ReleaseDate">Datum izlaska</option>
+          <option value="DurationMinutes">Trajanje</option>
+          <option value="AgeRestriction">Dobna granica</option>
+          <option value="OriginalLanguage">Izvorni jezik</option>
+          <option value="Genre">Žanr</option>
+          <option value="DirectorFirstName">Ime redatelja</option>
+          <option value="DirectorLastName">Prezime redatelja</option>
+          <option value="ActorFirstName">Ime glumca</option>
+          <option value="ActorLastName">Prezime glumca</option>
+          <option value="ActorCountry">Zemlja podrijetla glumca</option>
+          <option value="CharacterName">Filmski lik</option>
+        </select>
+
+        <button type="button" id="clearButton">Obriši filtar</button>
+      </div>
+
+      <p id="resultCount"></p>
+      <p id="status"></p>
+
+      <h2>Podaci o filmovima</h2>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Country</th>
+              <th>Rating</th>
+              <th>ReleaseDate</th>
+              <th>DurationMinutes</th>
+              <th>AgeRestriction</th>
+              <th>OriginalLanguage</th>
+              <th>Genre</th>
+              <th>DirectorFirstName</th>
+              <th>DirectorLastName</th>
+              <th>ActorFirstName</th>
+              <th>ActorLastName</th>
+              <th>ActorCountry</th>
+              <th>CharacterName</th>
+            </tr>
+          </thead>
+          <tbody id="movieTableBody"></tbody>
+        </table>
+      </div>
+
+      <h2>Preuzimanje podataka</h2>
+
+      <button type="button" id="csvButton">Preuzmi CSV</button>
+
+      <button type="button" id="jsonButton">Preuzmi JSON</button>
+
+      <p>
+        <a href="index.html" class="back-button"
+          >Povratak na početnu stranicu</a
+        >
+      </p>
+    </div>
+
+    <script src="js/datatable.js"></script>
+  </body>
+</html>

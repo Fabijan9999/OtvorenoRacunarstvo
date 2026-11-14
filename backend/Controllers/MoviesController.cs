@@ -27,10 +27,16 @@ namespace backend.Controllers
 
             if (!string.IsNullOrWhiteSpace(search))
             {
+                search = search.Trim();
                 string pattern = $"%{search}%";
+
+                bool hasRating = decimal.TryParse(search, out decimal ratingValue);
+                bool hasNumber = int.TryParse(search, out int numberValue);
+                bool hasDate = DateOnly.TryParse(search, out DateOnly dateValue);
 
                 if (string.IsNullOrWhiteSpace(attribute))
                 {
+
                     query = query.Where(m =>
                         EF.Functions.ILike(m.Title, pattern) ||
                         EF.Functions.ILike(m.Country, pattern) ||
@@ -42,21 +48,11 @@ namespace backend.Controllers
                             EF.Functions.ILike(ma.Actor.Firstname, pattern) ||
                             EF.Functions.ILike(ma.Actor.Lastname, pattern) ||
                             EF.Functions.ILike(ma.Actor.Country, pattern) ||
-                            EF.Functions.ILike(ma.Charactername, pattern))
+                            EF.Functions.ILike(ma.Charactername, pattern)) ||
+                        (hasRating && m.Rating == ratingValue) ||
+                        (hasNumber && (m.Durationminutes == numberValue || m.Agerestriction == numberValue)) ||
+                        (hasDate && m.Releasedate == dateValue)
                     );
-
-                    if (decimal.TryParse(search, out decimal rating))
-                        query = query.Union(ctx.Movies.Where(m => m.Rating == rating));
-
-                    if (int.TryParse(search, out int number))
-                    {
-                        query = query.Union(ctx.Movies.Where(m =>
-                            m.Durationminutes == number ||
-                            m.Agerestriction == number));
-                    }
-
-                    if (DateOnly.TryParse(search, out DateOnly date))
-                        query = query.Union(ctx.Movies.Where(m => m.Releasedate == date));
                 }
                 else
                 {
@@ -68,20 +64,20 @@ namespace backend.Controllers
                         "Country" => query.Where(m =>
                             EF.Functions.ILike(m.Country, pattern)),
 
-                        "Rating" => decimal.TryParse(search, out decimal rating)
-                            ? query.Where(m => m.Rating == rating)
+                        "Rating" => hasRating
+                            ? query.Where(m => m.Rating == ratingValue)
                             : query.Where(m => false),
 
-                        "ReleaseDate" => DateOnly.TryParse(search, out DateOnly date)
-                            ? query.Where(m => m.Releasedate == date)
+                        "ReleaseDate" => hasDate
+                            ? query.Where(m => m.Releasedate == dateValue)
                             : query.Where(m => false),
 
-                        "DurationMinutes" => int.TryParse(search, out int duration)
-                            ? query.Where(m => m.Durationminutes == duration)
+                        "DurationMinutes" => hasNumber
+                            ? query.Where(m => m.Durationminutes == numberValue)
                             : query.Where(m => false),
 
-                        "AgeRestriction" => int.TryParse(search, out int age)
-                            ? query.Where(m => m.Agerestriction == age)
+                        "AgeRestriction" => hasNumber
+                            ? query.Where(m => m.Agerestriction == numberValue)
                             : query.Where(m => false),
 
                         "OriginalLanguage" => query.Where(m =>

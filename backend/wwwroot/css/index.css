@@ -36,17 +36,6 @@ p {
     color: #555;
 }
 
-.metadata {
-    background-color: #f1f5f9;
-    padding: 18px 22px;
-    border-radius: 5px;
-    margin: 20px 0;
-}
-
-.metadata p {
-    margin: 8px 0;
-}
-
 .links {
     display: flex;
     flex-wrap: wrap;
@@ -69,27 +58,15 @@ p {
     background-color: #1d4ed8;
 }
 
-.links a.csv-button {
+.links a.csv-button,
+.links a.json-button,
+.links a.schema-button {
     background-color: #15803d;
 }
 
-.links a.csv-button:hover {
-    background-color: #166534;
-}
-
-.links a.json-button {
-    background-color: #15803d;
-}
-
-.links a.json-button:hover {
-    background-color: #166534;
-}
-
-.links .schema-button {
-    background-color: #15803d;
-}
-
-.links .schema-button:hover {
+.links a.csv-button:hover,
+.links a.json-button:hover,
+.links a.schema-button:hover {
     background-color: #166534;
 }
 

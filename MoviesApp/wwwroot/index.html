@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Filmovi</title>
+    <meta name="title" content="Filmovi" />
+    <meta
+      name="description"
+      content="Skup podataka s informacijama o filmovima, redateljima, glumcima i žanrovima"
+    />
+    <meta name="author" content="Fabijan Radat" />
+    <meta name="keywords" content="film, glumci, redatelji, žanrovi" />
+
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Filmovi</h1>
+        <p>Otvoreni skup podataka o filmovima</p>
+      </header>
+
+      <hr />
+
+      <section>
+        <h2>O skupu podataka</h2>
+
+        <p>
+          Skup podataka sadrži informacije o 17 poznatih filmova s navedenim
+          najvažnijim podacima o tim filmovima. Za svaki film navedeni su naziv,
+          zemlja produkcije, ocjena, datum izlaska, dobna granica, izvorni
+          jezik, žanrovi kojima pripadaju, redatelj i nekoliko odabranih glumaca
+          i filmskih likova koje glume.
+        </p>
+      </section>
+
+      <section>
+        <h2>Metapodaci</h2>
+
+        <ul>
+          <li><strong>Naziv:</strong> Filmovi</li>
+          <li>
+            <strong>Opis:</strong> Skup podataka s informacijama o filmovima,
+            redateljima, glumcima i žanrovima
+          </li>
+          <li><strong>Autor:</strong> Fabijan Radat</li>
+          <li><strong>Licencija:</strong> Creative Commons Zero (CC0 1.0)</li>
+          <li><strong>Jezik podataka:</strong> engleski</li>
+          <li><strong>Format:</strong> CSV i JSON</li>
+          <li><strong>Kodiranje:</strong> UTF-8</li>
+          <li><strong>Datum izrade:</strong> 31.10.2026.</li>
+          <li><strong>Sadržaj baze podataka:</strong></li>
+          <ul>
+            <li>17 filmova</li>
+            <li>16 redatelja</li>
+            <li>9 žanrova</li>
+            <li>40 glumaca</li>
+          </ul>
+        </ul>
+
+        <ul>
+          <li>
+            <strong>Izvor podataka:</strong>
+            <a href="https://www.themoviedb.org/">TMDb</a>
+          </li>
+          <li><strong>Vrsta skupa:</strong> kataloški</li>
+          <li>
+            <strong>Ključne riječi:</strong> film, glumci, redatelji, žanrovi
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Atributi</h2>
+
+        <p>Skup podataka sadrži 14 atributa.</p>
+
+        <h3>Opis atributa</h3>
+
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Atribut</th>
+                <th>Tip podatka</th>
+                <th>Opis</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Title</td>
+                <td>String</td>
+                <td>Naslov filma</td>
+              </tr>
+              <tr>
+                <td>Country</td>
+                <td>String</td>
+                <td>Zemlja produkcije</td>
+              </tr>
+              <tr>
+                <td>Rating</td>
+                <td>Float (0–10)</td>
+                <td>Ocjena</td>
+              </tr>
+              <tr>
+                <td>ReleaseDate</td>
+                <td>Date (YYYY-MM-DD)</td>
+                <td>Datum izlaska</td>
+              </tr>
+              <tr>
+                <td>DurationMinutes</td>
+                <td>Integer</td>
+                <td>Trajanje u minutama</td>
+              </tr>
+              <tr>
+                <td>AgeRestriction</td>
+                <td>Integer</td>
+                <td>Preporučena dobna granica</td>
+              </tr>
+              <tr>
+                <td>OriginalLanguage</td>
+                <td>String</td>
+                <td>Izvorni jezik filma</td>
+              </tr>
+              <tr>
+                <td>Genre</td>
+                <td>String[]</td>
+                <td>Žanrovi filma</td>
+              </tr>
+              <tr>
+                <td>DirectorFirstName</td>
+                <td>String</td>
+                <td>Ime redatelja</td>
+              </tr>
+              <tr>
+                <td>DirectorLastName</td>
+                <td>String</td>
+                <td>Prezime redatelja</td>
+              </tr>
+              <tr>
+                <td>ActorFirstName</td>
+                <td>String</td>
+                <td>Ime glumca</td>
+              </tr>
+              <tr>
+                <td>ActorLastName</td>
+                <td>String</td>
+                <td>Prezime glumca</td>
+              </tr>
+              <tr>
+                <td>ActorCountry</td>
+                <td>String</td>
+                <td>Zemlja podrijetla glumca</td>
+              </tr>
+              <tr>
+                <td>CharacterName</td>
+                <td>String</td>
+                <td>Ime filmskog lika kojeg navedeni glumac glumi</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Napomena o formatima</h3>
+
+        <p>
+          Zbog razlika u strukturi CSV i JSON formata, pojedini atributi
+          prikazani su na različite načine.
+        </p>
+
+        <ul>
+          <li>
+            <strong>CSV:</strong>
+            Podaci o redatelju i glumcima prikazani su zasebnim atributima
+            (<code>DirectorFirstName</code>,
+            <code>DirectorLastName</code>, <code>ActorFirstName</code>,
+            <code>ActorLastName</code>, <code>ActorCountry</code>,
+            <code>CharacterName</code>), a žanrovi su prikazani kao polje.
+          </li>
+          <li>
+            <strong>JSON:</strong>
+            Podaci o redatelju i glumcima organizirani su kao ugniježđeni
+            objekti (<code>director</code> i <code>actors</code>), a žanrovi su
+            prikazani kao polje.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Preuzimanje podataka</h2>
+
+        <p>Preuzmi skup podataka u željenom formatu:</p>
+
+        <div class="links">
+          <a href="data/movies.csv" download class="csv-button">
+            Preuzmi CSV datoteku
+          </a>
+
+          <a href="data/movies.json" download class="json-button">
+            Preuzmi JSON datoteku
+          </a>
+
+          <a href="data/schema.json" download class="schema-button">
+            Preuzmi JSON Schemu
+          </a>
+        </div>
+      </section>
+
+      <section>
+        <h2>Pregled podataka</h2>
+
+        <p>
+          Podatke možete pregledavati u interaktivnoj tablici i filtrirati prema
+          različitim atributima:
+        </p>
+
+        <div class="links">
+          <a href="datatable.html" class="table-button">
+            Otvori tablicu filmova
+          </a>
+        </div>
+      </section>
+
+      <hr />
+
+      <footer>
+        <p>Skup podataka Filmovi – Otvoreno računarstvo</p>
+      </footer>
+    </div>
+  </body>
+</html>

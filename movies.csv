@@ -1,4 +1,4 @@
-Title,Country,Rating,ReleaseDate,DurationMinutes,AgeRestriction,OriginalLanguage,Genre,DirectorFirstName,DirectorLastName,ActorFirstName,ActorLastName,ActorCountry,CharacterName
+﻿Title,Country,Rating,ReleaseDate,DurationMinutes,AgeRestriction,OriginalLanguage,Genre,DirectorFirstName,DirectorLastName,ActorFirstName,ActorLastName,ActorCountry,CharacterName
 The Shawshank Redemption,United States,8.7,1994-09-23,142,16,English,Drama,Frank,Darabont,Tim,Robbins,United States,Andy Dufresne
 The Shawshank Redemption,United States,8.7,1994-09-23,142,16,English,Drama,Frank,Darabont,Morgan,Freeman,United States,Ellis Boyd Redding
 The Godfather,United States,8.7,1972-03-24,175,18,English,"Crime, Drama",Francis Ford,Coppola,Marlon,Brando,United States,Vito Corleone

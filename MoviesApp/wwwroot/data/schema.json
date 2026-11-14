@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Fabijan9999/OtvorenoRacunarstvo/blob/main/movies.json",
+  "title": "Filmovi",
+  "description": "Otvoreni skup podataka o filmovima s informacijama o redateljima, glumcima i žanrovima",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Title": {
+        "type": "string",
+        "title": "Naslov filma",
+        "description": "Naslov filma"
+      },
+      "Country": {
+        "type": "string",
+        "title": "Država",
+        "description": "Zemlja produkcije"
+      },
+      "Rating": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 10,
+        "title": "Ocjena",
+        "description": "Ocjena filma od 0 do 10"
+      },
+      "ReleaseDate": {
+        "type": "string",
+        "format": "date",
+        "title": "Datum izlaska",
+        "description": "Datum izlaska u formatu YYYY-MM-DD"
+      },
+      "DurationMinutes": {
+        "type": "integer",
+        "minimum": 1,
+        "title": "Trajanje",
+        "description": "Trajanje u minutama"
+      },
+      "AgeRestriction": {
+        "type": "integer",
+        "minimum": 0,
+        "title": "Dobna granica",
+        "description": "Preporučena dobna granica"
+      },
+      "OriginalLanguage": {
+        "type": "string",
+        "title": "Izvorni jezik",
+        "description": "Izvorni jezik filma"
+      },
+      "Genre": {
+        "type": "array",
+        "title": "Žanrovi",
+        "description": "Žanrovi filma",
+        "items": {
+          "type": "string"
+        }
+      },
+      "Director": {
+        "type": "object",
+        "title": "Redatelj",
+        "description": "Podaci o redatelju",
+        "properties": {
+          "DirectorFirstName": {
+            "type": "string",
+            "title": "Ime redatelja"
+          },
+          "DirectorLastName": {
+            "type": "string",
+            "title": "Prezime redatelja"
+          }
+        },
+        "required": ["DirectorFirstName", "DirectorLastName"]
+      },
+      "Actors": {
+        "type": "array",
+        "title": "Glumci",
+        "description": "Popis glumaca, država podrijetla i uloga u filmu",
+        "items": {
+          "type": "object",
+          "properties": {
+            "ActorFirstName": {
+              "type": "string",
+              "title": "Ime glumca"
+            },
+            "ActorLastName": {
+              "type": "string",
+              "title": "Prezime glumca"
+            },
+            "ActorCountry": {
+              "type": "string",
+              "title": "Država glumca"
+            },
+            "CharacterName": {
+              "type": "string",
+              "title": "Uloga"
+            }
+          },
+          "required": [
+            "ActorFirstName",
+            "ActorLastName",
+            "ActorCountry",
+            "CharacterName"
+          ]
+        }
+      }
+    },
+    "required": [
+      "Title",
+      "Country",
+      "Rating",
+      "ReleaseDate",
+      "DurationMinutes",
+      "AgeRestriction",
+      "OriginalLanguage",
+      "Genre",
+      "Director",
+      "Actors"
+    ]
+  }
+}

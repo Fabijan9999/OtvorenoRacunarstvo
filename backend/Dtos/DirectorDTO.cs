@@ -2,7 +2,7 @@
 {
     public class DirectorDTO
     {
-        public string FirstName { get; set; } = null!;
-        public string LastName { get; set; } = null!;
+        public string DirectorFirstName { get; set; } = null!;
+        public string DirectorLastName { get; set; } = null!;
     }
 }

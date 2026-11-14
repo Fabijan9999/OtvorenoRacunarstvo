@@ -19,9 +19,10 @@ namespace backend.Mappers
 
                 Genre = movie.Genres
                     .Select(g => g.Genrename)
+                    .OrderBy(g => g)
                     .ToList(),
 
-                director = movie.Director.ToDirectorDto(),
+                Director = movie.Director.ToDirectorDto(),
 
                 Actors = movie.MovieActors
                     .Select(ma => ma.ToActorDto())

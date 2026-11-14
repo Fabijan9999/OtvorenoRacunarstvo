@@ -9,8 +9,8 @@ namespace backend.Mappers
         {
             return new DirectorDTO
             {
-                FirstName = director.Firstname,
-                LastName = director.Lastname
+                DirectorFirstName = director.Firstname,
+                DirectorLastName = director.Lastname
             };
         }
     }

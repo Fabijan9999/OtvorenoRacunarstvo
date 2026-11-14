@@ -12,7 +12,7 @@
 
         public List<string> Genre { get; set; } = [];
 
-        public DirectorDTO director { get; set; } = null!;
+        public DirectorDTO Director { get; set; } = null!;
 
         public List<ActorDTO> Actors { get; set; } = [];
     }

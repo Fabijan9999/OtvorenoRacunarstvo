@@ -28,7 +28,7 @@ Skup podataka sadrži 14 atributa:
 | Country | String | Zemlja produkcije |
 | Rating | Float (0-10) | Ocjena |
 | ReleaseDate | Date (YYYY-MM-DD) | Datum izlaska |
-| DurationMinutes | Integer || Trajanje u minutama |
+| DurationMinutes | Integer | Trajanje u minutama |
 | AgeRestriction | Integer | Preporučena dobna granica |
 | OriginalLanguage | String | Izvorni jezik filma |
 | Genre | String[] | Žanrovi filma |
